@@ -1,1 +1,1 @@
-# tcga-join-representation
+# tcga-joint-representation
