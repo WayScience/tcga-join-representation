@@ -58,6 +58,7 @@ filters = {
 ```
 
 * Convert the filters parameter from a dictionary to JSON-formatted string and use a POST request to get the data
+
 ```
 params = {
     "filters": json.dumps(filters),
