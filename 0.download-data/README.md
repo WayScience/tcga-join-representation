@@ -1,10 +1,12 @@
 # Introduction - Data Download Procedure
 
-The Genomic Data Commons (GDC) portal offers API access to download clinical, image and genomic data for patient cases. We will leverage Python to access the API endpoints and download case data related to TCGA
+The Genomic Data Commons (GDC) portal offers API access to download clinical, image and genomic data for patient cases.
+We will leverage Python to access the API endpoints and download case data related to TCGA.
 
 ### Search Data
 
-Using a wide set of parameters, the GDC API can be queried to return results of a search or details about a specific entity. Helper features are available to assist the user in building their query and understand available fields.
+We can query the GDC API using a wide set of parameters to return results of a search or details about a specific entity.
+The API provides helper features to assist the user in building their query and understand available fields.
 
 ### Download Files
 
@@ -13,7 +15,8 @@ The GDC API can be used to serve data to the user. If restricted data is request
 
 ### Data Download Process
 
-**1. TCGA case data extraction** - Identify relevant fields from the data model. Here we will choose all patients under the TCGA program
+**1. TCGA case data extraction** - Identify relevant fields from the data model.
+Here we choose all patients under the TCGA program.
 
 * Create variable for the cases API endpoint
 
@@ -55,6 +58,7 @@ filters = {
 ```
 
 * Convert the filters parameter from a dictionary to JSON-formatted string and use a POST request to get the data
+
 ```
 params = {
     "filters": json.dumps(filters),
