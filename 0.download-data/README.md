@@ -10,7 +10,8 @@ The API provides helper features to assist the user in building their query and 
 
 ### Download Files
 
-The GDC API can be used to serve data to the user. If restricted data is requested, a token must be provided by the user along with the API call. This token can be downloaded directly from the GDC Data Portal or the GDC Data Submission Portal.
+The GDC API can be used to serve data to the user. If restricted data is requested, a token must be provided by the user along with the API call. 
+This token can be downloaded directly from the GDC Data Portal or the GDC Data Submission Portal.
 
 
 ### Data Download Process
@@ -74,3 +75,4 @@ response = requests.post(cases_endpt, headers = {"Content-Type": "application/js
 
 * GDC API - https://gdc.cancer.gov/developers/gdc-application-programming-interface-api
 * GDC API User Guide - https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/
+* GDC Portal Authentication Token - https://docs.gdc.cancer.gov/Data_Portal/Users_Guide/Cart/#gdc-authentication-tokens
