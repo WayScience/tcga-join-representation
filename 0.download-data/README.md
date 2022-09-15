@@ -71,5 +71,6 @@ response = requests.post(cases_endpt, headers = {"Content-Type": "application/js
 ```
 
 ### Important links
+
 * GDC API - https://gdc.cancer.gov/developers/gdc-application-programming-interface-api
 * GDC API User Guide - https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/
