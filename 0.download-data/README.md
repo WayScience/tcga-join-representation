@@ -15,7 +15,8 @@ The GDC API can be used to serve data to the user. If restricted data is request
 
 ### Data Download Process
 
-**1. TCGA case data extraction** - Identify relevant fields from the data model. Here we will choose all patients under the TCGA program
+**1. TCGA case data extraction** - Identify relevant fields from the data model.
+Here we choose all patients under the TCGA program.
 
 * Create variable for the cases API endpoint
 
