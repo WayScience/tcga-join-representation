@@ -5,7 +5,8 @@ We will leverage Python to access the API endpoints and download case data relat
 
 ### Search Data
 
-Using a wide set of parameters, the GDC API can be queried to return results of a search or details about a specific entity. Helper features are available to assist the user in building their query and understand available fields.
+We can query the GDC API using a wide set of parameters to return results of a search or details about a specific entity.
+The API provides helper features to assist the user in building their query and understand available fields.
 
 ### Download Files
 
