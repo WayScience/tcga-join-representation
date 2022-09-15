@@ -1,6 +1,7 @@
 # Introduction - Data Download Procedure
 
-The Genomic Data Commons (GDC) portal offers API access to download clinical, image and genomic data for patient cases. We will leverage Python to access the API endpoints and download case data related to TCGA
+The Genomic Data Commons (GDC) portal offers API access to download clinical, image and genomic data for patient cases.
+We will leverage Python to access the API endpoints and download case data related to TCGA.
 
 ### Search Data
 
