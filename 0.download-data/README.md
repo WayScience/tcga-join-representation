@@ -10,7 +10,8 @@ The API provides helper features to assist the user in building their query and 
 
 ### Download Files
 
-The GDC API can be used to serve data to the user. If restricted data is requested, a token must be provided by the user along with the API call. 
+The GDC API can be used to serve data to the user. 
+If restricted data is requested, a token must be provided by the user along with the API call. 
 This token can be downloaded directly from the GDC Data Portal or the GDC Data Submission Portal.
 
 
